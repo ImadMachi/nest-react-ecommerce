@@ -5,6 +5,7 @@ const Main = () => {
   return (
 <Container>
     <PromosProductCarousel/>
+    <ProductByCategories />
 </Container>
   )
 }
