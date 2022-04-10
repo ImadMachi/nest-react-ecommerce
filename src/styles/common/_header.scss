@@ -1,0 +1,76 @@
+@use "../variables" as *;
+
+.header {
+  display: none;
+}
+
+@media (hover: hover) {
+  .header {
+    display: flex;
+    align-items: center;
+    max-width: 84rem;
+    width: 100%;
+    margin: auto;
+    padding: 0 1rem;
+  }
+
+  .header__logo {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .header__logo img {
+    width: 200px;
+  }
+
+  .header__logo h1 {
+    text-transform: uppercase;
+    font-size: $xxl;
+    color: $primary-base;
+  }
+
+  .header__login button {
+    background: none;
+    border: none;
+    color: $primary-base;
+    font-size: $l;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid $primary-base;
+    border-radius: 10px;
+    padding: $xxxs $xxs;
+    transition: all 0.25s;
+    margin-right: $xs;
+  }
+
+  .header__login button:hover {
+    background-color: $primary-base;
+    color: $white;
+  }
+
+  .header__cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  .header__cart-icon {
+    color: $primary-base;
+    font-size: $xl;
+  }
+
+  .header__cart-counter {
+    position: absolute;
+    top: -18px;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+    color: $secondary-base;
+    background-color: $primary-base;
+  }
+}
