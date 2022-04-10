@@ -1,7 +1,11 @@
+import { Container } from "react-bootstrap"
+import PromosProductCarousel from "../PromosProductCarousel"
 
 const Main = () => {
   return (
-    <div>Main</div>
+<Container>
+    <PromosProductCarousel/>
+</Container>
   )
 }
 

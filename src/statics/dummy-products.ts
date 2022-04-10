@@ -1,7 +1,9 @@
-export const dummyProducts = [
+import { ProductInterface } from "../models";
+
+export const dummyProducts:ProductInterface[] = [
   {
     name: "Fancy chair",
-    image: "./images/img.1",
+    image: "./images/img1.jpg",
     brand: "Fako",
     category: "Accessoires",
     description: "This is a very fancy product from Fako brand",
@@ -10,7 +12,7 @@ export const dummyProducts = [
   },
   {
     name: "BackPack",
-    image: "./images/img.2",
+    image: "./images/img2.jpg",
     brand: "Fako",
     category: "Accessoires",
     description: "This is a very fancy product from Fako brand",
@@ -19,7 +21,7 @@ export const dummyProducts = [
   },
   {
     name: "shawl",
-    image: "./images/img.3",
+    image: "./images/img3.jpg",
     brand: "Fako",
     category: "Accessoires",
     description: "This is a very fancy product from Fako brand",
@@ -28,7 +30,7 @@ export const dummyProducts = [
   },
   {
     name: "clock",
-    image: "./images/img.4",
+    image: "./images/img4.jpg",
     brand: "Fako",
     category: "Accessoires",
     description: "This is a very fancy product from Fako brand",
