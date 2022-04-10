@@ -6,4 +6,5 @@ export interface ProductInterface {
   category: string;
   price: number;
   countInStock: number;
+  rating: number;
 }

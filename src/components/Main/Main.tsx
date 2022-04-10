@@ -1,13 +1,14 @@
-import { Container } from "react-bootstrap"
-import PromosProductCarousel from "../PromosProductCarousel"
+import { Container } from "react-bootstrap";
+import ProductByCategories from "../ProductByCategories";
+import PromosProductCarousel from "../PromosProductCarousel";
 
 const Main = () => {
   return (
-<Container>
-    <PromosProductCarousel/>
-    <ProductByCategories />
-</Container>
-  )
-}
+    <Container>
+      <PromosProductCarousel />
+      <ProductByCategories />
+    </Container>
+  );
+};
 
-export default Main
+export default Main;

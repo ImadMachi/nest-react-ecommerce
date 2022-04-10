@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Footer from "../Footer";
 import Main from "../Main";
 import Navbars from "../Navbars";
 
@@ -7,7 +8,7 @@ export const App = () => {
     <BrowserRouter>
       <Navbars />
       <Routes>
-        <Route path="/" element={<Main/>}>
+        <Route path="/" element={<Main />}>
           {/* <Route index element={<Home />} />
           <Route path="teams" element={<Teams />}>
             <Route path=":teamId" element={<Team />} />
@@ -16,6 +17,7 @@ export const App = () => {
           {/* </Route> */}
         </Route>
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
