@@ -4,6 +4,7 @@ import { ThemeProvider } from "styled-components";
 import { theme } from "./common/style/theme";
 import App from "./components/App";
 import "./styles/index.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(
   <React.StrictMode>
